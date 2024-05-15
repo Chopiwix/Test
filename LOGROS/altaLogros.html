@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de Logro</title>
+    <link rel="stylesheet" href="altaLogros.css">
+</head>
+<body>
+    <h1>Alta de Logros</h1>
+    <form id="logroForm">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo" required><br>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required><br>
+
+        <label for="area">Área:</label>
+        <select id="area" name="area">
+            <option value="personal">Personal</option>
+            <option value="profesional">Profesional</option>
+            <option value="aprendizaje">Aprendizaje</option>
+            <option value="deportiva">Deportiva</option>
+            <option value="laboral">Laboral</option>
+        </select><br>
+
+        <label for="descripcion">Descripción:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="50" required></textarea><br>
+
+        <label for="imagen">Imagen:</label>
+        <input type="file" id="imagen" name="imagen" accept="image/*" required><br>
+
+        <button type="submit">Guardar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
