@@ -118,6 +118,15 @@ main{
     outline: none;
 }
 
+.contenedor__login-register form button a,
+.contenedor__login-register form button a:visited,
+.contenedor__login-register form button a:hover,
+.contenedor__login-register form button a:active{
+    text-decoration: none;
+    color: #fff;
+}
+
+
 .formulario__login{
     opacity: 1;
     display: block;
