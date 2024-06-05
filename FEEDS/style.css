@@ -146,3 +146,74 @@ a{
     outline: none;
     border: 0;
 }
+
+/*-----------Navbar end------------*/
+
+.container{
+    padding: 20px 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*-----------Left-sidebar-----*/
+.left-sidebar{
+    flex-basis: 25%;
+    align-self: flex-start;
+}
+
+.sidebar-profile-box{
+    background: #fff;
+}
+
+.sidebar-profile-info{
+    padding: 0 25px;
+}
+
+.sidebar-profile-info img{
+    width: 90px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 4px;
+    margin-top: -45px;
+}
+
+.sidebar-profile-info h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #f24973;
+}
+
+.sidebar-profile-info h3{
+    font-size: 14px;
+    font-weight: 500;
+    color: #777;
+}
+
+.sidebar-profile-info ul{
+    list-style: none; /*Aca quita los puntos de la lista*/
+    margin: 20px 0;
+}
+
+.sidebar-profile-info ul li{
+    width: 100%;
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.sidebar-profile-info ul li span{
+    float: right; /*Separa los # de las letras del perfil*/
+    color: #f24973;
+}
+
+
+/*---------right-sidebar-----------*/
+.left-sidebar{
+    flex-basis: 25%;
+    align-self: flex-start;
+}
+
+/*---main-content---*/
+.main-content{
+    flex-basis: 47%;
+}

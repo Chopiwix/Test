@@ -18,10 +18,20 @@ body {
 h1 {
     text-align: center;
     color: #ffffff;
+    font-size: 2em;
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    margin: .67em 0;
+    display: block;
 }
 
 form {
-    margin-top: 20px;
+    display: flex;
+        margin: 0 auto;
+        align-items: center;
+        width: 50%;
+        flex-direction: column;
+        margin-top: 20px;
 }
 
 label {
@@ -33,12 +43,13 @@ input[type="text"],
 input[type="date"],
 select,
 textarea {
-    width: 100%;
+    width: 80%;
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #be8ea7;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     box-sizing: border-box;
+    outline: none;
 }
 
 button[type="submit"] {
